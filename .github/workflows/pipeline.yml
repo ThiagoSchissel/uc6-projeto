@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Clone
+      - name: Clone
       uses: actions/checkout@v4
 
-      -name: Exibir mensagem
+      - name: Exibir mensagem
       run: echo "Olá GitHub Actions"
